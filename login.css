@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6d9f3; /* Light Purple */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #4b0082; /* Dark Purple */
+}
+
+label, input, button {
+    display: block;
+    margin: 10px auto;
+    width: 80%;
+    max-width: 300px;
+}
+
+button {
+    background-color: #4b0082;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
